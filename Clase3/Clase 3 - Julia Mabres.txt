@@ -1,0 +1,154 @@
+GIT BASH
+Punto 9) 
+Crear multiples carpetas dentro de carpeta peliculas
+- rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+Crear multiples archivos dentro de carpeta Infantiles
+-rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic.jpg"
+
+Crear una carpeta desde dos carpetas antes
+-rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ mkdir Peliculas/Romanticas/Prueba
+
+Crar carpeta Prueba2 dentro de carpeta distinta en la que estoy y anterior.
+-rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mkdir ../Accion/Prueba2
+
+VISUAL STUDIO CODE
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ cd Peliculas/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Accion/Cars.jpg Infantiles
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Accion/Diario\ de\ una\ pasion.js Romanticas
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Accion/El\ hexorcista.xls Terror
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv IT.xls Terror
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Madagaskar.js Infantiles
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Mision\ imposible.png Accion
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd ../
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd Infantiles/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ touch Madagaskar.js
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd ../
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd Terror/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ touch IT.xls
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd ../
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd Accion/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ touch "Mision imposible.png"
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd ../
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Infantiles/El\ juego\ del\ miedo.xls Te
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ Infantiles/"Rapido y furioso.pdf" Accion
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Infantiles/Rapido\ y\ furioso.pdf Accio
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Infantiles/Titanic.jpg Romanticas
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Romanticas/Annabelle.js Terror
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Romanticas/La\ mascara.js Comedia/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Romanticas/Los\ vengadores.js Accion
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Romanticas/Pocahontas.jpg Infantiles/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Terror/La\ dama\ y\ el\ bagavundo.png 
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Terror/Que\ paso\ ayer.pdf Comedia/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Terror/Yo\ antes\ de\ ti.xls Romanticas
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ mv Terror/We\ will\ rock\ you.js Comedia/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/
+$ cd ../
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ rm Peliculas/Accion/Smooth\ criminal.txt
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ rm Peliculas/Comedia/We\ will\ rock\ you.js
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ mv Peliculas/Infantiles/"La dama y el bagabundo.png" Peliculas/Infantiles/"La dama y el bagabundo.png"
+
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ mv Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/Intensamente.txt
+
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH                                 
+$ mv Peliculas/Infantiles/Madagaskar.js Peliculas/Infantiles/Madagascar.js          
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ touch Peliculas/Accion/Prueba2/noBorrar.js
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ cd Peliculas/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas
+$ cd ../
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ touch camadax.txt
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ cd Peliculas/
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas
+$ mv Terror/IT.xls Infantiles/        
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas
+$ rm ../camadax.txt
+
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH/Peliculas
+$ rm -r Romanticas/Prueba/
+
+

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap");
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 20px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.descuento{
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    }
+header h1{
+background-color:#00669F;
+padding: 10px 0 10px 20px;
+}
+section{
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin: 100px 0;
+}
+section article{
+    width: 300px;
+    background-color: lightgrey;
+    border-radius: 16px 16px 0 0;
+    position: relative;
+   
+}
+section article div{
+    height: 194px;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+    padding: 25px;
+}
+section article img {
+ border-radius: 50%;
+ width: 125px;
+ position: absolute;
+ top: 120px;
+ left: 94px;
+} 
+section article h4{
+text-align: center;
+margin-top: 70px;
+}
+
+
+
+
+
