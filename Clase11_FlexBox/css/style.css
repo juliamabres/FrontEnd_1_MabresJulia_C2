@@ -1,60 +1,303 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap");
+*{
+ margin: 0;
+ box-sizing: border-box;
+}
 
-* {
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+h4{
+position: absolute;
+width: 1024px;
+height: 38px;
+left: 0px;
+top: 0px;
+background-color: #1CD1B0;
+padding: 10px;
+font-family: 'Roboto';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
 }
-html{
-    font-size: 20px;
+
+
+h1{
+position: absolute;
+width: 1024px;
+height: 101px;
+left: 0px;
+top: 38px;
+
+background: #00669F;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+color: black;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+padding: 28px 26px 28px;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+
+#imgcaja1{
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+width: 300px;
+height: 193px;
+left: 32px;
+top: 293px;
 }
-.descuento{
-    width: 100%;
-    height: 38px;
-    background-color: #1CD1B0;
-    padding: 10px;
-    font-size: 15px;
-    line-height: 18px;
-    }
-header h1{
-background-color:#00669F;
-padding: 10px 0 10px 20px;
+
+#vector1{
+position: absolute;
+left: 50px;
+top: 320px;
+z-index: 10;
+
 }
-section{
- display: flex;
- justify-content: space-evenly;
- flex-wrap: wrap;
- margin: 100px 0;
+#imglogocaja1{
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 122px;
+    top: 421px;
+    border-radius: 50%;
+    z-index: 10;
 }
-section article{
-    width: 300px;
-    background-color: lightgrey;
-    border-radius: 16px 16px 0 0;
+
+#caja1{
+    position: absolute;
+width: 300px;
+height: 336px;
+left: 32px;
+top: 485px;
+
+background-color: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#textocaja1{
     position: relative;
-   
+width: 267px;
+height: 113px;
+left: 16px;
+top: 119px;
+right: 17px;
+bottom: 104;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+
 }
-section article div{
-    height: 194px;
-    border-radius: 16px 16px 0 0;
-    background-size: cover;
-    padding: 25px;
+#titulo1{
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    top: 80px;
+    left: 85px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #000000;
 }
-section article img {
- border-radius: 50%;
- width: 125px;
- position: absolute;
- top: 120px;
- left: 94px;
-} 
-section article h4{
+#button1{
+position: absolute;
+width: 128.78px;
+height: 48.52px;
+left: 85px;
+top: 270px;
+background-color: #00669F;
+}
+#imgcaja2{
+    position: absolute;
+width: 300px;
+height: 193px;
+left: 362px;
+top: 293px;
+border-radius: 16px 16px 0px 0px;
+    }
+#vector2{
+    position: absolute;
+    left: 380px;
+    top: 320px;
+    z-index: 10;
+    }
+#imglogocaja2{
+        position: absolute;
+        width: 122px;
+        height: 122px;
+        left: 451px;
+        top: 419px;
+        border-radius: 50%;
+        z-index: 10;
+    }
+#caja2{
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 362px;
+    top: 485px;
+    
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+#textocaja2{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 119px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+
+    
+}
+
+#titulo2{
+    position: absolute;
+width: 171px;
+height: 35px;
+top: 80px;
+left: 85px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: flex-end;
 text-align: center;
-margin-top: 70px;
+
+color: #000000;
 }
+#button2{
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    left: 85px;
+top: 270px;
+    
+    background: #00669F;
+    }
+        
+#imgcaja3{
+        position: absolute;
+        width: 300px;
+        height: 193px;
+        left: 692px;
+        top: 294px;
+        background: url(849bfede3a5193c34ab8a00379e64fa2.jpg);
+        border-radius: 16px 16px 0px 0px;
+    }
+#vector3{
+        position: absolute;
+        left: 715px;
+        top: 320px;
+        bottom: 6.25%;
+        z-index: 10;
+    }
+#imglogocaja3{
+        position: absolute;
+        width: 122px;
+        height: 120px;
+        left: 781px;
+        top: 420px;
+        border-radius: 50%;
+        z-index: 10;
+        
+    }
+#caja3{
+       position: absolute;
+width: 300px;
+height: 336px;
+left: 692px;
+top: 486px;
 
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+#textocaja3{
+        position: absolute;
+        width: 267px;
+        height: 113px;
+        left: 16px;
+        top: 119px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #333333;
 
-
-
-
+    }
+    
+#titulo3{
+    position: absolute;
+    width: 122px;
+    height: 35px;
+    top: 80px;
+    left: 85px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #000000;
+}
+#button3{
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    left: 85px;
+top: 270px;
+    background-color: #00669F;
+    }
+footer p{
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    color: #FFF9F9;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    padding: 16px;
+    }
