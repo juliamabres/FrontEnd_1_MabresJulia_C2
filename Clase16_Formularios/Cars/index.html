@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AñadirSuper</title>
+</head>
+<body>
+  <header>
+      <div>
+          <p>20% de descuento en todos los productos!</p>
+      </div>
+      <div>
+          <img src="img/Logo.jpg" alt="tienda">
+          <h2>Nombre Tienda</h2>
+      </div>
+      <nav>
+          <ul>
+              <li>Contacto</li>
+              <li>Registrarme</li>
+              <li>Ingresar</li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+      <section>
+          <h1>Añadi tu super!</h1>
+          <p>Agrega tu personaje favorito completando las opciones.</p>
+          <form>
+          <div>
+          <label for="nombre">*Nombre</label>
+          <input type="text" name="nombre" id="nombre">
+          </div>
+
+          <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+            </div>
+
+            <div>
+                <textarea rows="15" placeholder="Descripcion"></textarea> 
+            </div>
+
+            <div>
+                <label>*Especie</label>
+                <select name="especie">
+                    <option value="especie">Especie</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="archivo">Agregar foto</label>
+                <input type="file" name="archivo" id="archivo">
+            </div>
+
+            <div>
+                <label>Poderes:</label>
+                <label>Volar<input type="checkbox" name="poderes" id="poderes"></label>
+                <label>Superinteligencia<input type="checkbox" name="poderes" id="poderes"></label>
+                <label>Vista de rayo laser<input type="checkbox" name="poderes" id="poderes"></label>
+                <label>Billetera gorda<input type="checkbox" name="poderes" id="poderes"></label>
+            </div>
+
+            <div>
+                <label>Tipo de Personaje</label>
+                <label> <input type="radio">Heroe /Heroina</label>
+                <label> <input type="radio">Villano / Villana</label>
+            </div>
+        </form>
+        <button type="submit">Añadir</button>
+      </section>
+  </main>
+
+</body>
+</html>

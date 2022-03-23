@@ -2,9 +2,8 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-   
-
 }
+
 header section{
     display: flex;
     background-color: black;
@@ -15,212 +14,272 @@ header section{
     height: 30px;
     font-size: 10px;
     padding-left: 30px;
+    text-decoration: none;
 }
-.tamaño{
-    width: 500px;
-}
-header section div ul{
-    display: flex;
-   list-style: none;
-   align-items: center;
-   gap: 1em;
-   text-align: center;
-   justify-content: space-between;
+
+header > section > label > select{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .naranja{
-    display: flex;
-    justify-content: space-between;
-    height: 62px;
     background-color: #F0A83E;
-    flex-direction: row;
-    align-items: center;
-    gap: 1em;
-    padding: 10px;
-
 }
-header div img{
-    display: flex;
-    width: 166px;
-    height: 23px;
-    margin: 19px 150px 20px 40px;
-    
-}
-header div ul{
-   align-items: center;
-    list-style-type: none;
+header div{
+    background-color: #F0A83E; 
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    font-size: 10px;
-    margin-right: 40px;
     color: white;
+    padding: 24px;
+    }
+header div img, header div nav{
+    margin-left: 15px;
 }
-header div ul li{
-    width: 48px;
-    height: auto;
-    margin-left: 10px;
-    align-items: center;
-}
-header div ul li img{
-    width: 15px;
-    height: 14px;
-}
-.imagenprimera{
+
+main section{
+    display: flex;
+    height: 409px;
+    flex:50%;
     background-image: url('../img/imagenbowl.png');
-    background-size: cover;
     flex-direction: column;
-    justify-content: space-between;
-    height: 500px;
-    width: auto;
+    justify-content: center;
+    align-items: flex-end;
 }
 main section h2{
-    position: relative;
-    top: 165px;
-    left: 658px;
-    width: 400px;
-    height: 50px;
     background-color: white;
+    font-size: 30px;
     padding: 10px;
-    text-align: center;
-    font-family: 'Roboto';
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: center;
+    color:#3C2313;
+    border-radius: 5px;
 }
+
 main section h4{
-    position: absolute;
-    top: 330px;
-    left: 765px;
- color: black;
- font-family: 'Roboto';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: center;
-z-index: 10;
+    font-size: 16px;
+    padding: 10px;
+    color:#3C2313;
+    margin-right: 40px;
 }
 main section button{
-    width: 141px;
-    height: 41px;
-    color: white;
-    background-color: #F0A83E;
-    position: absolute;
-    top: 370px;
-    left: 800px;
+    text-decoration: none;
+    font-size: 16px;
     text-transform: uppercase;
-}
-
-
-footer section ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    list-style-type: none;
-width: 100%;
-bottom: 17px;
-height: 400px;
-background: #3C2313;
-padding: 20px 0px 20px 30px;
-color: white;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-text-align: left;
-}
-
-footer section ul li{
-    position: relative;
-    left:30px;
-}
-.gris{
-    position: relative;
-    left: 80px;
-font-style: normal;
-font-weight: 700;
-font-size: 10px;
-line-height: 12px;
-color: #8A8787;
-}
-.imagenlogo{
-    position: relative;
-    left: 800px;
-    bottom: 200px;
-    z-index: 10;
-    display: flex;
-}
-
-.derechos{
-    padding-top: 7px;
-    background-color: black;
+    padding: 15px;
+    background-color: #F0A83E;
     color: white;
-    height: 22px;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 500;
-    text-align: center;
-  
+    margin-right: 90px;
+    border-style: none;
+    border-radius: 7px;
+}
+
+.cajacontenedor > main > div{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.caja1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 380px;
+}
+.caja1 h2{
+  color: #3C2313;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 
+.caja1 ul{
+    margin: 12px;
+    color: #3C2313;
+    font-size: 16px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+.caja1 ul li{
+    padding-left: 10px;
 
-.subscribe{
+}
+
+.caja2{
     display:flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
-    background-color: #F0A83E;
-    justify-content: space-between;
-    height: 60px;
-    width: 100%;
-    max-width: 1300px;
-    padding-left: 10px;
-}
-
-.sub-left{
-    display:flex;
-}
-
-.sub-text{
-    font-size: 20px;
-    color:white;
+    justify-content: space-evenly;
+    height: 250px;
     font-weight: bold;
-    margin-left: 0.5em;
-    padding-top: 8px;
 }
 
-.sub-input{
-    width: 340px;
-    height: 40px;
-    background: #ffffff;
+.caja2 p{
+    color: #3C2313;
+    font-size: 15px;
+}
+.caja2 span{
+    color: #F0A83E;
+    font-size: 15px;
+}
+.uno{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.caja3 h3{
+    color: #3C2313;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+form input{
+    width: 257.89px;
+    padding: 15px;
+    font-size: 9px;
+    color: white;
+    background-color: #3C2313;
     border-radius: 15px;
-    border:none;
-    padding-left: 1em;
-    transition: .3s ease;
-    color:rgb(37, 37, 37);
+    border: none;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 5px;
+
+}
+.formvertical{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonhorizontal{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 257.89px;
+    margin-left: 15px;
+
+}
+.resetear{
+    background-color: #8A8787;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    text-decoration: none;  
+    margin-left: -15px;
 }
 
-.sub-input::placeholder{
-    color: #A0A0A0;
+.enviar{
+    background-color: #F0A83E;
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-left: 15px;
 }
 
-.sub-input:focus{
-    outline: none;
-    background: #ffffff;
+.suscribe{
+    display:flex;   
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 60px; 
+    padding: 10px;
+    color: white;
+
+}
+.sub-left{
+    display:flex;   
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+footer li{
+    list-style: none; 
+}
+.sub-text{
+  margin-left: 15px;
+}
+
+.sub-right{
+    display:flex;   
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contacto{
+    background-color: #3C2313;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.contactoleft{
+    margin-left: 10px;
+}
+.blanco{
+   font-size: 20px;
+}
+
+.gris{
+    font-size: 10px;
+    color: #8A8787;
+    margin-left: 65px;
+}
+
+.contactoright{
+   margin-right: 30px;
 }
 
 .sub-btn{
-    background-color: #3C2313;
-    color:white;
-    font-weight: bold;
-    width: 70px;
-    height: 34px;
-    border:none;
-    border-radius: 15px;
+    width: auto;
+    padding: 15px;
     font-size: 9px;
+    color: white;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+}
+.sub-input{
+    width: 200px;
+    padding: 15px;
+    font-size: 9px;
+    border-radius: 15px;
+    border: none;
+    color: gray;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    margin: 5px;
+}
+footer .derechos{
+    background-color: black;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-size: 10px;
 }
