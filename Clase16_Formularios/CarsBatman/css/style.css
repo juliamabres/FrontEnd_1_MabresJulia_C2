@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+button{
+    background-color: #1CD1B0;
+ border-radius: 23.011px;
+ color: black;
+}
+button:hover{
+    background-color: #001D2D;
+    color: white;
+    border-radius: 23.011px; 
+}
+input[type="radio"]:focus{
+    border: 5px white solid;
+    background-color: #1CD1B0;
+    color:#1CD1B0;
+}
+
+input:hover{
+    background-color: #1CD1B0;
+    color: white;
+}

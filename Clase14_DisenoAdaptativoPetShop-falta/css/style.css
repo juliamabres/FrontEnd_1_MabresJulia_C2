@@ -40,14 +40,12 @@ header div img, header div nav{
 
 main section{
     display: flex;
-    height: 500px;
+    height: 409px;
     flex:50%;
     background-image: url('../img/imagenbowl.png');
-    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-size: cover;
 }
 main section h2{
     background-color: white;
@@ -73,13 +71,8 @@ main section button{
     margin-right: 90px;
     border-style: none;
     border-radius: 7px;
-    cursor: pointer;
 }
 
-main section button:hover{
-    background-color: white;
-    color: #F0A83E;
-}
 .cajacontenedor > main > div{
   display: flex;
   flex-direction: column;
@@ -188,12 +181,8 @@ form input{
     border: none;
     text-decoration: none;  
     margin-left: -15px;
-    cursor: pointer;
 }
-.resetear:hover{
-    background-color: black;
-    color: #8A8787;
-}
+
 .enviar{
     background-color: #F0A83E;
     border-radius: 15px;
@@ -204,12 +193,8 @@ form input{
     border: none;
     text-decoration: none;
     margin-left: 15px;
-    cursor: pointer;
 }
-.enviar:hover{
-    background-color: black;
-    color: #F0A83E;
-}
+
 .suscribe{
     display:flex;   
     justify-content: space-between;
@@ -278,13 +263,6 @@ footer li{
     border: none;
     text-decoration: none;
     margin: 5px;
-    cursor: pointer;
-}
-.sub-btn:hover{
-    background-color: white;
-    color: #3C2313;
-    font-weight: bold;
-
 }
 .sub-input{
     width: 200px;
