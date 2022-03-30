@@ -40,12 +40,14 @@ header div img, header div nav{
 
 main section{
     display: flex;
-    height: 409px;
+    height: 500px;
     flex:50%;
     background-image: url('../img/imagenbowl.png');
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    background-size: cover;
 }
 main section h2{
     background-color: white;
@@ -71,8 +73,13 @@ main section button{
     margin-right: 90px;
     border-style: none;
     border-radius: 7px;
+    cursor: pointer;
 }
 
+main section button:hover{
+    background-color: white;
+    color: #F0A83E;
+}
 .cajacontenedor > main > div{
   display: flex;
   flex-direction: column;
@@ -181,8 +188,12 @@ form input{
     border: none;
     text-decoration: none;  
     margin-left: -15px;
+    cursor: pointer;
 }
-
+.resetear:hover{
+    background-color: black;
+    color: #8A8787;
+}
 .enviar{
     background-color: #F0A83E;
     border-radius: 15px;
@@ -193,8 +204,12 @@ form input{
     border: none;
     text-decoration: none;
     margin-left: 15px;
+    cursor: pointer;
 }
-
+.enviar:hover{
+    background-color: black;
+    color: #F0A83E;
+}
 .suscribe{
     display:flex;   
     justify-content: space-between;
@@ -263,6 +278,13 @@ footer li{
     border: none;
     text-decoration: none;
     margin: 5px;
+    cursor: pointer;
+}
+.sub-btn:hover{
+    background-color: white;
+    color: #3C2313;
+    font-weight: bold;
+
 }
 .sub-input{
     width: 200px;
@@ -283,3 +305,194 @@ footer .derechos{
     text-align: center;
     font-size: 10px;
 }
+@media (max-width: 415px) {
+
+    header section{
+        display: none;
+    }
+    
+    header div{
+        background-color: #F0A83E; 
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        color: white;
+        padding: 24px;
+        }
+    header div img, header div nav{
+        margin-left: 15px;
+    }
+    
+
+    main section{
+        display: flex;
+        padding-top: 30px;;
+        height: 400px;
+        background-image: url('../img/imagenbowl.png');
+        background-repeat: no-repeat;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-size: cover;
+        align-items: center;
+
+    }
+    main section h2{
+        background-color: white;
+        font-size: 20px;
+        padding: 10px;
+        color:#3C2313;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
+    .caja2{
+        flex-direction: column; 
+        height: 800px; 
+    }
+    
+    .caja3{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 400px;
+    }
+    
+    .caja3 h3{
+        color: #3C2313;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    
+    form input{
+        width: 257.89px;
+        padding: 15px;
+        font-size: 9px;
+        color: white;
+        background-color: #3C2313;
+        border-radius: 15px;
+        border: none;
+        color: aliceblue;
+        text-decoration: none;
+        margin: 5px;
+    
+    }
+    .formvertical{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttonhorizontal{
+        display:flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        width: 257.89px;
+        margin-left: 15px;
+    
+    }
+    .resetear{
+        
+        width: 50%;
+        
+    }
+  
+    .enviar{
+       
+        width: 50%;
+        
+    }
+    
+    .suscribe{
+        display:flex;   
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F0A83E;
+        height: 60px; 
+        padding: 10px;
+        color: white;
+    
+    }
+    .sub-left{
+        display:flex;   
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 10px;
+    }
+    footer li{
+        list-style: none; 
+    }
+    .sub-text{
+      margin-left: 15px;
+    }
+    
+    .sub-right{
+        display:flex;   
+        justify-content: flex-end;
+        align-items: center;
+        border: none;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    
+    .contacto{
+        background-color: #3C2313;
+        height: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .contactoleft{
+        margin-left: 10px;
+    }
+    .blanco{
+       font-size: 20px;
+    }
+    
+    .gris{
+        font-size: 10px;
+        color: #8A8787;
+        margin-left: 65px;
+    }
+    
+    .contactoright{
+       margin-right: 30px;
+    }
+    
+    .sub-btn{
+        width: auto;
+        padding: 15px;
+        font-size: 9px;
+        color: white;
+        background-color: #3C2313;
+        border-radius: 15px;
+        border: none;
+        text-decoration: none;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .sub-btn:hover{
+        background-color: white;
+        color: #3C2313;
+        font-weight: bold;
+    
+    }
+    .sub-input{
+        width: 200px;
+        padding: 0px;
+        font-size: 9px;
+        border-radius: 15px;
+        border: none;
+        color: gray;
+        text-decoration: none;
+        border: none;
+        background-color: white;
+        margin: 5px;
+    }
+   
