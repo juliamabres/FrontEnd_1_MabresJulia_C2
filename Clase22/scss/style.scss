@@ -1,0 +1,36 @@
+$bg-primary: rgb(103, 103, 183);
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+// body{
+//     background-color: #d2691e;
+// }
+
+
+main{
+    width: 50vw;
+    background-color: $bg-primary;
+    section.hero{
+        width: 30vw;
+        background-color: rgb(120, 65, 65);
+        div.text-combo{
+            width: 15vw;
+            background-color: violet;
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 14px;
+            }
+            button{
+                border: none;
+            }
+        }
+    }
+}
+
